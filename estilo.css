@@ -1,0 +1,82 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    display: flex;
+    /*Alinhados junto a borda de início*/
+    justify-content:left;
+}
+
+
+.container2 {
+    display: flex;
+    /*Alhinados junto a borda final;*/
+    justify-content: right;
+}
+
+
+.container3 {
+    display: flex;
+    /* Centralizados na linha;*/
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    /* Distribuir os itens de forma igual ao longo da linha, o primeiro item junto a borda inicial da linha, o último junto a borda final da linha;*/
+    justify-content: space-between;
+}
+.container5 {
+    display: flex;
+    /*Distribuir os itens na linha com o mesmo espaçamento ao redor dele.*/
+    justify-content: space-around;
+}
+.container6 {
+    display: flex;
+    /*Distribuir os itens de forma que o espaçamento entre quaisquer dos itens da linha seja igual.*/
+    justify-content: space-evenly;
+}
+
+.container-exercicioB{
+    display: flex;
+    flex-direction:column-reverse;
+}
+
+.container-desafio{
+    display: flex;
+    flex-direction: row-reverse;
+}
